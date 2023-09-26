@@ -1,4 +1,6 @@
 
 value = 5
 
-print()
+for i in range(value):
+
+    print(" "*(value-1-i) + "*"*(i+1) + " " + "*"*(i+1))
