@@ -1,6 +1,6 @@
 
-value = 5
+val = 50
 
-for i in range(value):
+for i in range(val):
 
-    print(" "*(value-1-i) + "*"*(i+1) + " " + "*"*(i+1))
+    print(" "*(val-1-i) + "*"*(i+1) + "  " + "*"*(i+1))
